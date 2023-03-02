@@ -1,16 +1,43 @@
 :root {
+	--icon-color: #9ea8b0;
+	--icon-color-opacity: #9ea8b080;
 }
 
 * {
-  font-family: Inter, sans-serif;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  list-style-type: none;
-  text-decoration: none;
+	font-family: Inter, sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style-type: none;
+	text-decoration: none;
 }
 
-body{
-  font-size:  12px;
+body {
+	font-size: 12px;
+}
+.icon--arrow {
+	color: var(--icon-color);
+	font-size: 1.2em;
+}
+.list{
+	box-shadow: 2px 1px 8px 0px var(--icon-color);
+	box-shadow: 1px 1px 5px 0px var(--icon-color);
+	margin: 0.5em;
+	border-radius: 0.3em;
+	width: 20em;
+}
+.list--item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+	margin: 0em 0.5em;
+	border-bottom: 1px solid var(--icon-color-opacity);
+}
+.list--item--ultime{
+	border: 0em;
+}
+.list--title{
+	font-size: 1.2em;
 }
