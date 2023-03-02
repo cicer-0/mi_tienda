@@ -1,4 +1,6 @@
 :root {
+  --background-color:rgb(11, 146, 199);
+
 }
 
 * {
@@ -9,4 +11,14 @@
   border: 0;
   list-style-type: none;
   text-decoration: none;
+}
+
+.orden{
+  background: rgb(220, 224, 229);
+  display: flex;
+  flex-direction: column;
+  width: 30px ;
+  height: 30px ;
+  margin-bottom: 20px;
+  margin-left: 5px;
 }
